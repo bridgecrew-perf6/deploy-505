@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  background-color: white;
+  justify-content: center;
+  padding: 2px;
+}
+
+.image {
+  width: 380px;
+  height: 200px;
+}
+
+.btn1 {
+  width: 15px;
+}
+.nav {
+  align-items: flex-end;
+}
+.image:hover {
+  transform: scaleX(-1);
+}
+
+.di {
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 4%;
+  padding: 12px;
+  display: inline-flex;
+  align-items: center;
+}

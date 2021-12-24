@@ -1,0 +1,17 @@
+.cart {
+  float: inline-end;
+}
+.cart-item {
+  float: initial;
+}
+.btn1 {
+  background-color: crimson;
+}
+
+.kart {
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+
+  width: fit-content;
+}
